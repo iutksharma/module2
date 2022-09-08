@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Module 4 Solution Starter</title>
-  <script>(function () {
+  <script>
+	  (function () {
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
@@ -18,8 +19,8 @@ for (var i = 0; i < names.length; i++) {
   }
 }
 
-})();</script>
-  <script>(function(window) {
+})();
+ (function(window) {
 	var speakWord = "Good Bye";
 	var byeSpeaker = function (name) {
   		console.log(speakWord + " " + name);
@@ -27,8 +28,8 @@ for (var i = 0; i < names.length; i++) {
 	
 	window.byeSpeaker = byeSpeaker;
 
-})(window);</script>
-  <script>(function(window) {
+})(window);
+ (function(window) {
 	var speakWord = "Hello";
 	var helloSpeaker = function (name) {
 		console.log(speakWord + " " + name);
